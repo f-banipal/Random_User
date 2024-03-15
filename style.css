@@ -1,0 +1,38 @@
+
+.female-color{
+    color: #888888;
+}
+button{
+    height: 40px;
+    width: 150px;
+    color: aliceblue;
+    background-color: rgba(206, 187, 224, 0.733);
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.btn-female{
+    background-color: #999999;
+}
+.btn-female:hover{
+    background-color:  #555555;
+}
+.btn-male{
+    background-color: rgb(40, 12, 66);
+}
+.btn-male:hover{
+    background-color: rgb(146, 60, 227);
+}
+.container{
+    padding: 2rem;
+}
+
+.container .card{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.container .card img{
+    border-radius: 50%;
+    margin: 1rem;
+}
